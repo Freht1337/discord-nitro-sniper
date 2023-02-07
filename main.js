@@ -17,9 +17,9 @@ client.on("messageCreate", async (message) => {
 
 async function onNitroFound(nitroCode, id, name) {
     const embed = new MessageEmbed()
-	    .setColor(0x0099FF)
-	    .setTitle("NITRO GRABBED")
-	    .setURL("https://github.com/Freht1337/nitro-sniper/")
+	.setColor(0x0099FF)
+	.setTitle("NITRO GRABBED")
+	.setURL("https://github.com/Freht1337/nitro-sniper/")
         .setDescription("**Nitro Code:** ||" + nitroCode + "||\n**Grabbed by *" + id + " (" + name + ")***")
         .setTimestamp()
         .setFooter({ text: "by Freht1337"});
